@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#LandingDiv {
+    height: 100vh;
+    width: 100%;
+    background-image: url(photos/1.jpg);
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+}
+
+.Filter {
+    height: 100vh;
+    width: 100%;
+    background-color: #00000033;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+    height: 8rem;
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header img {
+    margin-left: 5rem;
+    margin-right: 22rem;
+}
+
+header p {
+    margin: 0.5rem;
+    color: white;
+}
+
+header p :hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.Filter h1 {
+    margin: 15rem 0 4rem 0;
+    font-weight: 900;
+}
+
+.Filter p {
+    margin: 0 0 4rem 0;
+    font-weight: 900;
+}
+
+.Filter button {
+    cursor: pointer;
+    background-color: #f5af00;
+    color: white;
+    border-radius: 4rem;
+    padding: 1rem;
+    width: 12rem;
+}
+
+.Filter button :hover {
+    background-color: black;
+}
+
+#2 {
+    height: calc(100vh-8rem);
+    width: 100%;
+    background-color: brown;
+}
+
+footer {
+    height: 4rem;
+    width: 100%;
+    background-color: beige;
+}
